@@ -37,6 +37,12 @@ def student():
             
             # convert GWA to float
             gwa = float(gwa)
+            
+            # check who got the highest GWA in students.txt
+            if gwa < highest_gwa:
+                highest_gwa = gwa
+                highest_gwa_student = name
+
         
             
             
