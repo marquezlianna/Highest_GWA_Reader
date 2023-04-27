@@ -18,4 +18,14 @@ elif answer == "No":
 else:
     print(f"Your answer can only be Yes or No. You answered {answer}")
 
+# create banner
+ascii_banner = pyfiglet.figlet_format("CONGRATULATIONS!")
+print(ascii_banner)
+
+def student():
+    # open file named students.txt(read)
+    with open('students.txt', 'r') as students:
+
+
+
 
