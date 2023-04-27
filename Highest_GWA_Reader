@@ -25,6 +25,11 @@ print(ascii_banner)
 def student():
     # open file named students.txt(read)
     with open('students.txt', 'r') as students:
+    # set the variables highest GWA and name of the student with highest GWA
+        highest_gwa = 2
+        highest_gwa_student = ' '
+
+
 
 
 
