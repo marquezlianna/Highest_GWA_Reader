@@ -8,3 +8,14 @@
 import pyfiglet
 print("Welcome!")
 
+# ask the user to continue
+answer = input("Are you ready? (Yes or No): ")
+
+if answer == "Yes":
+    print("Yes, here it is!")  # or do something
+elif answer == "No":
+    print('You answered No.')  # or do something else
+else:
+    print(f"Your answer can only be Yes or No. You answered {answer}")
+
+
