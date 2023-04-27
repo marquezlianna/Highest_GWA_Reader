@@ -46,18 +46,3 @@ def student():
         print('\033[1;35;40m]' + f'{highest_gwa_student} got the highest GWA of {highest_gwa}! Keep it up!')
        
 student()
-
-
-
-        
-            
-            
-
-
-
-
-
-
-
-
-
