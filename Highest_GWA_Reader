@@ -10,7 +10,6 @@ print("Welcome!")
 
 # ask the user to continue
 answer = input("Are you ready? (Yes or No): ")
-
 if answer == "Yes":
     print("Yes, here it is!")  # or do something
 elif answer == "No":
@@ -18,7 +17,7 @@ elif answer == "No":
 else:
     print(f"Your answer can only be Yes or No. You answered {answer}")
 
-# create banner
+# create ASCII banner
 ascii_banner = pyfiglet.figlet_format("CONGRATULATIONS!")
 print(ascii_banner)
 
@@ -43,8 +42,8 @@ def student():
                 highest_gwa = gwa
                 highest_gwa_student = name
                 
-       # print the output with text color
-       print('\033[1;35;40m]' + f'{highest_gwa_student} got the highest GWA of {highest_gwa}! Keep it up!')
+        # print the output with text color
+        print('\033[1;35;40m]' + f'{highest_gwa_student} got the highest GWA of {highest_gwa}! Keep it up!')
        
 student()
 
